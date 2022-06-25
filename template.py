@@ -13,4 +13,15 @@ def func() -> int:
 
 if __name__ == "__main__":
 
-    assert func() == -1
+    CASES = (
+        (func(), -1)
+    )
+    
+    def test_cases() -> None:
+        for assertion, rv in CASES:
+            try:
+                assert assertion == rv, f"{assertion = }, {rv = }"
+            except AssertionError as e:
+                print(e)
+
+    test_cases()
