@@ -1,9 +1,9 @@
 """
 Leetcode Submission Detail
 
-Runtime: 00ms, faster than 00.00% of Python 3 online submissions.
-Memory Usage: 00.0 MB, less than 00.00% of Python 3 online submissions.
-https://leetcode.com/submissions/detail/
+Runtime: 76ms, faster than 81.36% of Python 3 online submissions.
+Memory Usage: 13.9 MB, less than 86.47% of Python 3 online submissions.
+https://leetcode.com/problems/add-two-numbers/submissions/863761804/
 """
 
 from typing import Optional
